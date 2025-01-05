@@ -1,0 +1,5 @@
+Customer John Brown added to the queue.
+Customer Mary Smith collected parcel C200 with fee: $15.50.
+Parcel C45 marked as collected.
+Parcel X59 has been in the depot for 1 day.
+No customers left in the queue to process.
