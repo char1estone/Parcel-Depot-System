@@ -1,137 +1,76 @@
 package model;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class QueueOfCustomers {
-
-    private Queue<Customer> customerQueue;
-
-    public QueueOfCustomers() {
+	private Queue<Customer> customerQueue;
+	
+	
+	public QueueOfCustomers() {
         customerQueue = new LinkedList<>();
     }
-
-    // Method to load customers from CSV file
-    public void loadCustomersFromCSV(String fileName) {
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream(fileName)))) {
-            String line;
+	
+	public void enqueue(Customer customer) {
+        customerQueue.add(customer);
+    }
+	
+	public void readCustomersFromCSV(String filePath) {
+        String line;
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             while ((line = br.readLine()) != null) {
-                line = line.trim();  // Trim any extra spaces
+                String[] values = line.split(",");
 
-                // Skip empty lines
-                if (line.isEmpty()) {
-                    continue;
-                }
-
-                // Split each line into parts (CSV format: Name,Parcel ID)
-                String[] parts = line.split(",");
-                if (parts.length == 2) {
-                    String name = parts[0].trim();
-                    String parcelId = parts[1].trim();
+                // Ensure the line contains the required data fields
+                if (values.length >= 3) {
+                    String customerID = values[0].trim();
+                    String name = values[1].trim();
+                    String parcelID = values[2].trim();
 
                     // Create a Customer object and add it to the queue
-                    addCustomer(new Customer(name, parcelId));
-                } else {
-                    System.err.println("Invalid line format: " + line);
+                    Customer customer = new Customer(customerID, name, parcelID);
+                    enqueue(customer);
                 }
             }
+            System.out.println("Customers successfully loaded from CSV file.");
         } catch (IOException e) {
-            System.err.println("Error reading CSV file: " + e.getMessage());
+            System.err.println("Error reading customers CSV file: " + e.getMessage());
         }
     }
-
-    /**
-     * Adds a new customer to the queue.
-     *
-     * @param customer The Customer object to add.
-     */
-    public void addCustomer(Customer customer) {
-        customerQueue.add(customer);
-        System.out.println("Added customer: " + customer);
-    }
-
-    /**
-     * Removes and returns the next customer in the queue.
-     *
-     * @return The next Customer, or null if the queue is empty.
-     */
-    public Customer processNextCustomer() {
-        Customer nextCustomer = customerQueue.poll();
-        if (nextCustomer != null) {
-            System.out.println("Processed customer: " + nextCustomer);
+	
+	public Customer dequeue() {
+        Customer customer = customerQueue.poll(); // Removes and returns the head of the queue
+        if (customer != null) {
+            System.out.println("Customer " + customer.getName() + " removed from the queue.");
         } else {
-            System.out.println("No customers in the queue to process.");
+            System.out.println("Queue is empty.");
         }
-        return nextCustomer;
+        return customer;
     }
-
-    /**
-     * Peeks at the next customer without removing them.
+	
+	/**
+     * Retrieves the current queue of customers.
      *
-     * @return The next Customer, or null if the queue is empty.
+     * @return The queue of Customer objects as a Queue.
      */
-    public Customer peekNextCustomer() {
-        Customer nextCustomer = customerQueue.peek();
-        if (nextCustomer != null) {
-            System.out.println("Next customer in line: " + nextCustomer);
-        } else {
-            System.out.println("No customers in the queue.");
-        }
-        return nextCustomer;
+    public Queue<Customer> getQueue() {
+        return customerQueue;
     }
-
+    
     /**
-     * Checks if the queue is empty.
-     *
-     * @return True if the queue is empty, false otherwise.
-     */
-    public boolean isEmpty() {
-        return customerQueue.isEmpty();
-    }
-
-    /**
-     * Displays all customers currently in the queue.
+     * Displays the current customer queue.
+     * Each customer's name and associated parcel ID are printed to the console.
+     * This method is primarily for testing and debugging purposes.
      */
     public void displayQueue() {
-        if (customerQueue.isEmpty()) {
-            System.out.println("The queue is empty.");
-        } else {
-            System.out.println("Current Queue:");
-            for (Customer customer : customerQueue) {
-                System.out.println(customer);
-            }
+        System.out.println("Current Customer Queue:");
+        for (Customer customer : customerQueue) {
+            System.out.println(" - " + customer.getName() + " (Parcel ID: " + customer.getParcelID() + ")");
         }
     }
-
-    // Main method for testing
-    public static void main(String[] args) {
-        QueueOfCustomers queue = new QueueOfCustomers();
-
-        // Path to the CSV file in the resources folder or main directory
-        String csvFilePath = "Custs.csv";
-
-        // Load customers from CSV
-        queue.loadCustomersFromCSV(csvFilePath);
-
-        // Display the queue
-        queue.displayQueue();
-
-        // Add a new customer
-        queue.addCustomer(new Customer("Alice Wonderland", "PARCEL101"));
-
-        // Peek at the next customer
-        queue.peekNextCustomer();
-
-        // Process a customer
-        queue.processNextCustomer();
-
-        // Display the updated queue
-        queue.displayQueue();
-
-        // Check if the queue is empty
-        System.out.println("Is the queue empty? " + queue.isEmpty());
-    }
 }
-
+	
 	
