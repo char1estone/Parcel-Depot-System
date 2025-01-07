@@ -1,10 +1,9 @@
 package model;
 
 public class Customer {
-    // Attributes
 	private final String customerID;
-    private String name; // Customer name
-    private String parcelID; // Parcel ID associated with the customer
+    private String name; 
+    private String parcelID; 
 
     // Constructor
     public Customer(String customerID, String name, String parcelID) {

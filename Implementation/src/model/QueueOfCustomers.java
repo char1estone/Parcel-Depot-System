@@ -14,6 +14,7 @@ public class QueueOfCustomers {
         customerQueue = new LinkedList<>();
     }
 	
+	//adds a new customer object to the queue
 	public void enqueue(Customer customer) {
         customerQueue.add(customer);
     }
@@ -24,25 +25,24 @@ public class QueueOfCustomers {
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
 
-                // Ensure the line contains the required data fields
                 if (values.length >= 3) {
                     String customerID = values[0].trim();
                     String name = values[1].trim();
                     String parcelID = values[2].trim();
 
-                    // Create a Customer object and add it to the queue
+                    //Createa a Customer object and add it to the queue
                     Customer customer = new Customer(customerID, name, parcelID);
                     enqueue(customer);
                 }
             }
-            System.out.println("Customers successfully loaded from CSV file.");
+            System.out.println("Customers have been loaded from Custs.csv file.");
         } catch (IOException e) {
-            System.err.println("Error reading customers CSV file: " + e.getMessage());
+            System.err.println("Error reading Custs.csv file: " + e.getMessage());
         }
     }
 	
 	public Customer dequeue() {
-        Customer customer = customerQueue.poll(); // Removes and returns the head of the queue
+        Customer customer = customerQueue.poll(); //Removes and returns the head of the queue
         if (customer != null) {
             System.out.println("Customer " + customer.getName() + " removed from the queue.");
         } else {
@@ -51,20 +51,11 @@ public class QueueOfCustomers {
         return customer;
     }
 	
-	/**
-     * Retrieves the current queue of customers.
-     *
-     * @return The queue of Customer objects as a Queue.
-     */
+	//returns the current queue of customers in the form of a queue
     public Queue<Customer> getQueue() {
         return customerQueue;
     }
     
-    /**
-     * Displays the current customer queue.
-     * Each customer's name and associated parcel ID are printed to the console.
-     * This method is primarily for testing and debugging purposes.
-     */
     public void displayQueue() {
         System.out.println("Current Customer Queue:");
         for (Customer customer : customerQueue) {

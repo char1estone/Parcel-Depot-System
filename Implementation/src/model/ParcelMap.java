@@ -25,16 +25,15 @@ public class ParcelMap {
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
 
-                // Ensure the line contains all required data fields
+                //Ensures the line in the csv file contains all required data fields
                 if (values.length >= 6) {
-                    // Sanitize parcel ID to remove non-printable characters
                     String parcelID = values[0].replaceAll("[^\\x20-\\x7E]", "").trim();
                     String dimensions = values[1].trim() + "x" + values[2].trim() + "x" + values[3].trim();     // New version
                     float weight = Float.parseFloat(values[4].trim());
                     int daysInDepot = Integer.parseInt(values[5].trim());
                     String status = values[6].trim();
 
-                    // Create a Parcel object and add it to the map
+                    //Creates a Parcel object and add it to the map
                     Parcel parcel = new Parcel(parcelID, dimensions, weight, daysInDepot, status);
                     addParcel(parcel);
                 }

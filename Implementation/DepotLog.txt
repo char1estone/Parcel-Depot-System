@@ -1,0 +1,80 @@
+2025-01-07 20:58:29 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 20:58:30 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 20:58:31 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 20:59:32 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 20:59:34 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 20:59:35 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 20:59:35 - Processed customer Bob Dawson with Parcel ID: X780. Collection fee: £4.9
+2025-01-07 20:59:35 - Processed customer Chris Smith with Parcel ID: X782. Collection fee: £5.9
+2025-01-07 20:59:36 - Processed customer Dave Jackson with Parcel ID: X316. Collection fee: £2.2
+2025-01-07 20:59:36 - Processed customer David Hunter with Parcel ID: X278. Collection fee: £2.2
+2025-01-07 20:59:36 - Processed customer Donald Murray with Parcel ID: X720. Collection fee: £3.1
+2025-01-07 20:59:36 - Processed customer Fiona Thoms with Parcel ID: X475. Collection fee: £2.7
+2025-01-07 20:59:45 - Processed customer Gillian Hamilton with Parcel ID: X386. Collection fee: £4.3
+2025-01-07 21:00:02 - Processed customer Harry Johnston with Parcel ID: X857. Collection fee: £3.3
+2025-01-07 21:00:02 - Processed customer Helen Webster with Parcel ID: X309. Collection fee: £4.7
+2025-01-07 21:00:02 - Processed customer Jack Houston with Parcel ID: X733. Collection fee: £5.7
+2025-01-07 21:00:06 - Processed customer Jo Hill with Parcel ID: X285. Collection fee: £2.5
+2025-01-07 21:00:07 - Processed customer Joe Woods with Parcel ID: X213. Collection fee: £4.0
+2025-01-07 21:11:14 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:13:23 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:13:23 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 21:13:25 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 21:19:45 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:19:55 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 21:19:56 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 21:19:59 - Processed customer Bob Dawson with Parcel ID: X780. Collection fee: £4.9
+2025-01-07 21:20:01 - Processed customer Chris Smith with Parcel ID: X782. Collection fee: £5.9
+2025-01-07 21:20:52 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:20:53 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 21:20:54 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 21:20:54 - Processed customer Bob Dawson with Parcel ID: X780. Collection fee: £4.9
+2025-01-07 21:20:54 - Processed customer Chris Smith with Parcel ID: X782. Collection fee: £5.9
+2025-01-07 21:20:55 - Processed customer Dave Jackson with Parcel ID: X316. Collection fee: £2.2
+2025-01-07 21:20:55 - Processed customer David Hunter with Parcel ID: X278. Collection fee: £2.2
+2025-01-07 21:20:55 - Processed customer Donald Murray with Parcel ID: X720. Collection fee: £3.1
+2025-01-07 21:20:55 - Processed customer Fiona Thoms with Parcel ID: X475. Collection fee: £2.7
+2025-01-07 21:20:55 - Processed customer Gillian Hamilton with Parcel ID: X386. Collection fee: £4.3
+2025-01-07 21:20:56 - Processed customer Harry Johnston with Parcel ID: X857. Collection fee: £3.3
+2025-01-07 21:20:56 - Processed customer Helen Webster with Parcel ID: X309. Collection fee: £4.7
+2025-01-07 21:20:56 - Processed customer Jack Houston with Parcel ID: X733. Collection fee: £5.7
+2025-01-07 21:20:56 - Processed customer Jo Hill with Parcel ID: X285. Collection fee: £2.5
+2025-01-07 21:20:56 - Processed customer Joe Woods with Parcel ID: X213. Collection fee: £4.0
+2025-01-07 21:20:57 - Processed customer John Brown with Parcel ID: X009. Collection fee: £5.9
+2025-01-07 21:20:57 - Processed customer Judy Hilman with Parcel ID: X904. Collection fee: £7.5
+2025-01-07 21:20:57 - Processed customer Keith Burns with Parcel ID: X552. Collection fee: £6.4
+2025-01-07 21:20:57 - Processed customer Lily Watson with Parcel ID: X121. Collection fee: £2.7
+2025-01-07 21:20:57 - Processed customer Lucy Grey with Parcel ID: X025. Collection fee: £6.3
+2025-01-07 21:20:59 - Processed customer Mary Brown with Parcel ID: X198. Collection fee: £2.0
+2025-01-07 21:20:59 - Processed customer Pamela Field with Parcel ID: X521. Collection fee: £3.6
+2025-01-07 21:20:59 - Processed customer Peter White with Parcel ID: X036. Collection fee: £6.9
+2025-01-07 21:20:59 - Processed customer Robert Murray with Parcel ID: X606. Collection fee: £3.6
+2025-01-07 21:21:00 - Processed customer Susan Turner with Parcel ID: X214. Collection fee: £3.5
+2025-01-07 21:21:00 - Processed customer Thomas Young with Parcel ID: X507. Collection fee: £6.6
+2025-01-07 21:21:00 - Processed customer Tim Smith with Parcel ID: X020. Collection fee: £4.8
+2025-01-07 21:21:00 - Processed customer Tony Lawson with Parcel ID: X086. Collection fee: £6.1
+2025-01-07 21:21:01 - Processed customer Ursula Milton with Parcel ID: X746. Collection fee: £3.9
+2025-01-07 21:21:06 - Processed customer Viola Nicholson with Parcel ID: X540. Collection fee: £3.0
+2025-01-07 21:21:19 - Added new customer: C031
+2025-01-07 21:21:37 - Added new parcel: X456
+2025-01-07 21:21:44 - Processed customer Tom Moss with Parcel ID: X456. Collection fee: £29.3
+2025-01-07 21:26:35 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:26:38 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 21:26:41 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 21:26:43 - Processed customer Bob Dawson with Parcel ID: X780. Collection fee: £4.9
+2025-01-07 21:33:57 - Test Event 1
+2025-01-07 21:33:57 - Test Event 2
+2025-01-07 21:33:57 - Test Event 3
+2025-01-07 21:33:57 - Test Event 4
+2025-01-07 21:33:57 - Test Event 5
+2025-01-07 21:33:57 - Test Event 6
+2025-01-07 21:33:57 - This event should appear in the console.
+2025-01-07 21:33:57 - No customers in queue to process.
+2025-01-07 21:33:57 - Processed customer Alice with Parcel ID: P001. Collection fee: £3.35
+2025-01-07 21:33:57 - Parcel not found for customer Bob
+2025-01-07 21:33:57 - Processed customer Charlie with Parcel ID: P003. Collection fee: £4.5
+2025-01-07 21:59:07 - Processed customer Andrew Robertson with Parcel ID: X919. Collection fee: £4.0
+2025-01-07 21:59:15 - Processed customer Ann Jones with Parcel ID: X064. Collection fee: £7.0
+2025-01-07 21:59:17 - Processed customer Blair Foster with Parcel ID: X682. Collection fee: £4.4
+2025-01-07 21:59:18 - Processed customer Bob Dawson with Parcel ID: X780. Collection fee: £4.9
+2025-01-07 21:59:20 - Processed customer Chris Smith with Parcel ID: X782. Collection fee: £5.9
