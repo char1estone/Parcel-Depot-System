@@ -28,6 +28,10 @@ public class Parcel {
     public double getWeight() {
         return weight;
     }
+    
+    public String getDimensions() {
+        return dimensions;
+    }
 
     public String getStatus() {
         return status;
